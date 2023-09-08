@@ -1,5 +1,42 @@
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     margin: 0;
+}
+  
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+  
+.gallery {
+    text-align: center;
+}
+  
+.cat {
+    list-style: none;
     padding: 0;
-    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+  
+.cat li {
+    margin: 10px;
+    text-align: center;
+}
+  
+.cat img {
+    max-width: 100%;
+    height: auto;
+}
+  
+.title-project {
+    margin-top: 5px;
+    font-size: 18px;
 }
