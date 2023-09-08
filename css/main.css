@@ -29,3 +29,26 @@ label {
     padding: 0.6rem;
     border-radius: 0.3rem;
 }
+.field.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+button.btn {
+    padding: 0.4rem 1.2rem;
+    margin: 1rem 0 0 0;
+    border-radius: 0.3rem;
+}
+.btn-send {
+    background: gray;
+    border: 1px solid gray;
+    color: white;
+    font-weight: bold;
+}
+.btn-cancel {
+    background: lightgray;
+    border: 1px solid lightgray;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+}
