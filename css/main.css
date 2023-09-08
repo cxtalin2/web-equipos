@@ -77,3 +77,53 @@ body {
   .copyright {
       font-size: 14px;
   }
+
+/** Form */
+.contact-form.form {
+    background: #f1f1f1;
+    border-radius: 0.5rem;
+    border: 1px dotted transparent;
+    margin: 0 auto;
+    padding: 3rem;
+    width: 50%;
+}
+.field {
+    display: flex;
+    flex-direction: column;
+    margin: 0.6rem 0;
+}
+label {
+    margin: 0 0 0.3rem 0;
+    font-weight: 400;
+}
+.input,
+.textarea {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+}
+.field.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+button.btn {
+    padding: 0.4rem 1.2rem;
+    margin: 1rem 0 0 0;
+    border-radius: 0.3rem;
+}
+.btn-send {
+    background: gray;
+    border: 1px solid gray;
+    color: white;
+    font-weight: bold;
+}
+.btn-cancel {
+    background: lightgray;
+    border: 1px solid lightgray;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+}
+
